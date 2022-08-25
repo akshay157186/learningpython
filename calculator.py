@@ -36,3 +36,5 @@ elif ch == '//':
     result = num1 // num2
 elif ch == '**':
     result = num1 ** num2
+else:
+    exit
