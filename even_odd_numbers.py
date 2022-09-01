@@ -6,8 +6,8 @@ print(f"printing {b} even numbers after {a}")
 
 num = a
 for x in range(b):
-    while num % 2 == 0:
-#    while num % 2 != 0:
+  #  while num % 2 == 0:
+    while num % 2 != 0:
         num += 1
     print(num)
     num += 1
